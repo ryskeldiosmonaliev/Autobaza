@@ -43,10 +43,7 @@ public class Main {
 
         writeFile(gson.toJson(cars));
         writeDriverName(gson.toJson(drivers));
-       // Servis.truck();
-        //ServisKonech.servisTruc(car1,d);
-        //SServis.servisTruc(car1,d);
-        Servispml.servisTruc(car1,d);
+        Servispml.servisTruc(car1, d);
     }
 
     private static void writeFile(String Object) {

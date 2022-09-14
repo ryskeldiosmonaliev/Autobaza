@@ -1,5 +1,7 @@
 package com.peaksoft;
 
+import java.lang.constant.Constable;
+
 public class Driver {
     private int id;
     private String nameDr;
@@ -21,13 +23,15 @@ public class Driver {
         this.id = id;
     }
 
-    public String getNameDr() {
+
+    public void setNameDr(Driver nameDr) {
+        this.nameDr = String.valueOf(nameDr);
+    }
+
+    public Constable getNameDr() {
         return nameDr;
     }
 
-    public void setNameDr(String nameDr) {
-        this.nameDr = nameDr;
-    }
 
     public static Driver makeDriver(int id, String nameDr, Name name){
         Driver driver = new Driver();

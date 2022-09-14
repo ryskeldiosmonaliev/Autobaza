@@ -6,7 +6,6 @@ public class Car {
     private Driver driver;
     private State state;
 
-
     public int getId() {
         return id;
     }
@@ -54,4 +53,6 @@ public class Car {
                 id+ "|" +name+  "| " +driver + "|"+ state;
 
     }
+
+
 }
